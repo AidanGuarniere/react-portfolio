@@ -2,6 +2,7 @@ import './App.css';
 import {useState} from 'react'
 import Nav from './components/Nav'
 import About from './components/About'
+import Contact from './components/Contact'
 
 function App() {
   // define titles
@@ -32,9 +33,9 @@ function App() {
           portfolio
         </div>
       ) :currentTitle.name === "contact" ?(
-        <div>
-          contact
-        </div>
+        <Contact
+          currentTitle={currentTitle}
+        ></Contact>
       ) :currentTitle.name === "resume" ?(
         <div>
           resume
