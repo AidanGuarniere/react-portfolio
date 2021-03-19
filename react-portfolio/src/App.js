@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import About from './components/About'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
+import Portfolio from './components/Portfolio'
 
 function App() {
   // define titles
@@ -30,9 +31,9 @@ function App() {
         currentTitle={currentTitle}
       ></About>
       ) :currentTitle.name === "portfolio" ?(
-        <div>
-          portfolio
-        </div>
+        <Portfolio
+          currentTitle={currentTitle}>
+        </Portfolio>
       ) :currentTitle.name === "contact" ?(
         <Contact
           currentTitle={currentTitle}
