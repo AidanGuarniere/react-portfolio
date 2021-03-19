@@ -3,6 +3,7 @@ import {useState} from 'react'
 import Nav from './components/Nav'
 import About from './components/About'
 import Contact from './components/Contact'
+import Resume from './components/Resume'
 
 function App() {
   // define titles
@@ -37,9 +38,9 @@ function App() {
           currentTitle={currentTitle}
         ></Contact>
       ) :currentTitle.name === "resume" ?(
-        <div>
-          resume
-        </div>
+        <Resume
+          currentTitle={currentTitle}
+        ></Resume>
       ) : (
         <div>
           You're not supposed to be in here!
