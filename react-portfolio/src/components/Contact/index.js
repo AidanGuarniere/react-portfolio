@@ -1,4 +1,4 @@
-function Contact(currentTitle) {
+function Contact({currentTitle}) {
   return (
     <section>
         <h1>{currentTitle.name}</h1>
