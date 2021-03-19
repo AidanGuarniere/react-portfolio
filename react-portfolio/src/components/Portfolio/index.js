@@ -11,25 +11,31 @@ function Portfolio ({currentTitle}) {
 
     return (
         <section>
-            <div>
-            <ul>
-                    {categories.map((category) => (
-                        <li className = 
-                            {category.type}
-                            key={category.type}
-                        >
-                            <span
-                                onClick={() => {
-                                    setCurrentCategory(category)
-                                }}
-                            > {category.type}</span>
-                        </li>
-                    ))}
-                </ul>
-            </div>
+            <Projects
+                categories = {categories}
+                currentCategory = {currentCategory}
+                setCurrentCategory = {setCurrentCategory}
+            />
         </section>
     )
 
 }
 
 export default Portfolio
+
+{/* <div>
+<ul>
+        {categories.map((category) => (
+            <li className = 
+                {category.type}
+                key={category.type}
+            >
+                <span
+                    onClick={() => {
+                        setCurrentCategory(category)
+                    }}
+                > {category.type}</span>
+            </li>
+        ))}
+    </ul>
+</div> */}
