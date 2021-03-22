@@ -1,5 +1,5 @@
 import resume from "../../assets/aidan-guarniere-resume.pdf"
-function Resume({currentTitle}) {
+function Resume() {
     return(
         <section>
             <h1>Resume</h1>

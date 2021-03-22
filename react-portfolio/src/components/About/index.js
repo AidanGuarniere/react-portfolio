@@ -1,7 +1,7 @@
 import React from "react";
 import headshot from "../../assets/img/headshot-1.jpg"
 
-function About({ currentTitle }) {
+function About() {
   return (
     <section>
       <h1>About Me</h1>

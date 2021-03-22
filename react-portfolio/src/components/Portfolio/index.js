@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Project from "../Project";
 
-function Portfolio({ currentTitle }) {
+function Portfolio() {
   const [categories] = useState([
     { type: "full-stack" },
     { type: "back-end" },
