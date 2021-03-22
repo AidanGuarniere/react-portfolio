@@ -27,21 +27,13 @@ function App() {
       ></Nav>
     <main>
       {currentTitle.name === "about Me" ? (
-      <About
-        currentTitle={currentTitle}
-      ></About>
+      <About/>
       ) :currentTitle.name === "portfolio" ?(
-        <Portfolio
-          currentTitle={currentTitle}>
-        </Portfolio>
+        <Portfolio/>
       ) :currentTitle.name === "contact" ?(
-        <Contact
-          currentTitle={currentTitle}
-        ></Contact>
+        <Contact/>
       ) :currentTitle.name === "resume" ?(
-        <Resume
-          currentTitle={currentTitle}
-        ></Resume>
+        <Resume/>
       ) : (
         <div>
           You're not supposed to be in here!

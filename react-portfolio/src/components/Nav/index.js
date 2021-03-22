@@ -1,4 +1,6 @@
 import React,{useEffect} from 'react'
+import { capitalizeFirstLetter } from '../../utils/helpers';
+
 
 function Nav({titles, currentTitle, setCurrentTitle}) {
 
@@ -20,7 +22,7 @@ function Nav({titles, currentTitle, setCurrentTitle}) {
                                 onClick={() => {
                                     setCurrentTitle(title)
                                 }}
-                            > {title.name}</span>
+                            > {capitalizeFirstLetter(title.name)}</span>
                         </li>
                     ))}
                 </ul>

@@ -12,6 +12,7 @@ function Portfolio({ currentTitle }) {
 
   return (
     <section>
+      <h1>Portfolio</h1>
       <div>
         <ul>
           {categories.map((category) => (

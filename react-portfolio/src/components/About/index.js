@@ -4,7 +4,7 @@ import headshot from "../../assets/img/headshot-1.jpg"
 function About({ currentTitle }) {
   return (
     <section>
-      <h1>{currentTitle.name}</h1>
+      <h1>About Me</h1>
       <img
         src={headshot}
         alt="Aidan"
