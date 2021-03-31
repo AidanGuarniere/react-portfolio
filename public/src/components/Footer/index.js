@@ -2,11 +2,7 @@ import React,{useEffect} from 'react'
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 
-function Footer({titles, currentTitle, setCurrentTitle}) {
-
-    useEffect(() => {
-        document.title = currentTitle.name
-    }, [currentTitle])
+function Footer() {
 
     return (
         <footer>
@@ -18,4 +14,4 @@ function Footer({titles, currentTitle, setCurrentTitle}) {
     )
 }
 
-export default Nav
+export default Footer

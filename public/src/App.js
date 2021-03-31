@@ -5,6 +5,8 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
+import Footer from './components/Footer'
+
 
 function App() {
   // define titles
@@ -42,6 +44,7 @@ function App() {
 
       }
     </main>
+    <Footer></Footer>
     </div>
   );
 }
