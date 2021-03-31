@@ -1,6 +1,7 @@
 # React Portfolio
 
-## Acceptance Criteria
+A personal portfolio website built with React.js
+
 GIVEN a single-page application portfolio for a web developer <br>
 WHEN I load the portfolio <br>
 THEN I am presented with a page containing a header, a section for content, and a footer <br>
