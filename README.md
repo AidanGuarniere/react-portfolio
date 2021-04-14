@@ -34,11 +34,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - JavaScript
 - CSS
 
-## Screenshot of the Application
-here
-
 ## Link to the Deployed Application
-here
+ http://192.168.4.22:5000
 
 ## Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
